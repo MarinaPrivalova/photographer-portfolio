@@ -1,0 +1,22 @@
+.hero__description {
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2;
+  margin: 0;
+  max-width: 470px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 769px) {
+  .hero__description {
+    max-width: 390px;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+}
