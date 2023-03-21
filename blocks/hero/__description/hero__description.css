@@ -10,19 +10,3 @@
   margin-top: 10px;
   margin-bottom: 25px;
 }
-
-@media screen and (max-width: 769px) {
-  .hero__description {
-    max-width: 390px;
-    font-size: 20px;
-    line-height: 1.2;
-    margin-top: 20px;
-    margin-bottom: 60px;
-  }
-}
-
-@media screen and (max-width: 470px) {
-  .hero__description {
-    max-width: 300px;
-  }
-}

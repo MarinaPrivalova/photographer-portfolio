@@ -1,10 +1,7 @@
-.portfolio__gallery {
-  list-style: none;
+.price__container {
   display: grid;
   grid-template-columns: repeat(auto-fill, 450px);
   gap: 25px;
   justify-content: center;
   justify-items: center;
-  margin: 60px auto 0;
-  padding: 0;
 }

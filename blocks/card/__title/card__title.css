@@ -1,10 +1,9 @@
-.hero__title {
-  color: #ffffff;
+.card__title {
   font-family: "Merriweather";
   font-style: normal;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 28px;
   line-height: 2;
-  margin: 0;
-  padding-top: 250px;
+  color: #ffffff;
+  margin: 43px auto 20px;
 }

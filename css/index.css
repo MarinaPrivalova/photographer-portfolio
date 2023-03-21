@@ -33,6 +33,33 @@
 @import url('../blocks/portfolio/__gallery/portfolio__gallery.css');
 @import url('../blocks/portfolio/__gallery-item/portfolio__gallery-item.css');
 @import url('../blocks/portfolio/__photo/portfolio__photo.css');
+@import url('../blocks/video/video.css');
+@import url('../blocks/video/__title/video__title.css');
+@import url('../blocks/video/__container/video__container.css');
+@import url('../blocks/video/__poster/video__poster.css');
+@import url('../blocks/video/__player/video__player.css');
+@import url('../blocks/video/__clip/video__clip.css');
+@import url('../blocks/video/__start-btn/video__start-btn.css');
+@import url('../blocks/video/__controls/video__controls.css');
+@import url('../blocks/controls/controls.css');
+@import url('../blocks/controls/_active/controls_active.css');
+@import url('../blocks/controls/__btn/controls__btn.css');
+@import url('../blocks/controls/__play-btn/controls__play-btn.css');
+@import url('../blocks/controls/__progress/controls__progress.css');
+@import url('../blocks/controls/__progress-bar/controls__progress-bar.css');
+@import url('../blocks/controls/__volume-btn/controls__volume-btn.css');
+@import url('../blocks/controls/__volume-btn/_mute/controls__volume-btn_mute.css');
+@import url('../blocks/controls/__volume-bar/controls__volume-bar.css');
+@import url('../blocks/price/price.css');
+@import url('../blocks/price/__title/price__title.css');
+@import url('../blocks/price/__container/price__container.css');
+@import url('../blocks/card/card.css');
+@import url('../blocks/card/__title/card__title.css');
+@import url('../blocks/card/__price/card__price.css');
+@import url('../blocks/card/__description/card__description.css');
+@import url('../blocks/card/__description-item/card__description-item.css');
+@import url('../blocks/card/__btn/card__btn.css');
+
 
 
 

@@ -1,0 +1,7 @@
+.video__poster {
+  background-image: url(../../../images/video_poster.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: absolute;
+}

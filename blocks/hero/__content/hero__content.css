@@ -2,16 +2,3 @@
   padding-left: 80px;
   padding-bottom: 330px;
 }
-
-@media screen and (max-width: 769px) {
-  .hero__content {
-    padding-left: 60px;
-    padding-bottom: 152px;
-  }
-}
-
-@media screen and (max-width: 470px) {
-  .hero__content {
-    padding-left: 25px;
-  }
-}

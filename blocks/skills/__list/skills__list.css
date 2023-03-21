@@ -8,15 +8,3 @@
   gap: 40px;
   justify-content: center;
 }
-
-@media screen and (max-width: 1419px) {
-  .skills__list {
-    gap: 36px 44px;
-  }
-}
-
-@media screen and (max-width: 525px) {
-  .skills__list {
-    width: 90%;
-  }
-}

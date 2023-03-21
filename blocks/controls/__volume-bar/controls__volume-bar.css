@@ -1,0 +1,8 @@
+.controls__volume-bar {
+  flex: 0.3;
+  background: -webkit-linear-gradient(0deg, #BDAE82 0%, #BDAE82 25%, #FFFFFF 25%, #FFFFFF 100%);
+}
+
+.controls__volume-bar::-webkit-slider-thumb {
+  background-color: #FFFFFF;
+}

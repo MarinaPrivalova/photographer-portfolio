@@ -8,6 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 100px auto 60px;
 }
 
 .section-title::before {
@@ -29,10 +30,4 @@
   display: block;
   flex-grow: 1;
   margin-left: 20px;
-}
-
-@media screen and (max-width: 525px) {
-  .section-title {
-    width: 90%;
-  }
 }

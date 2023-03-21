@@ -3,9 +3,3 @@
   height: 50px;
   margin-bottom: 50px;
 }
-
-@media screen and (max-width: 769px) {
-  .skills__image {
-    margin-bottom: 30px;
-  }
-}
