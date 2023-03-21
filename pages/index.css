@@ -5,6 +5,7 @@
 @import url('../blocks/header/__menu/header__menu.css');
 @import url('../blocks/header/__list/header__list.css');
 @import url('../blocks/header/__link/header__link.css');
+@import url('../blocks/header/__link/_active/header__link_active.css');
 @import url('../blocks/header/__item/header__item.css');
 @import url('../blocks/header/__item/_lang/header__item_lang.css');
 @import url('../blocks/header/__lang-menu/header__lang-menu.css');
@@ -15,6 +16,24 @@
 @import url('../blocks/hero/__description/hero__description.css');
 @import url('../blocks/hero/__btn/hero__btn.css');
 @import url('../blocks/link-hover/link-hover.css');
+@import url('../blocks/skills/skills.css');
+@import url('../blocks/skills/__title/skills__title.css');
+@import url('../blocks/section-title/section-title.css');
+@import url('../blocks/skills/__list/skills__list.css');
+@import url('../blocks/skills/__item/skills__item.css');
+@import url('../blocks/skills/__image/skills__image.css');
+@import url('../blocks/skills/__item-title/skills__item-title.css');
+@import url('../blocks/skills/__description/skills__description.css');
+@import url('../blocks/portfolio/portfolio.css');
+@import url('../blocks/portfolio/__title/portfolio__title.css');
+@import url('../blocks/portfolio/__btn-list/portfolio__btn-list.css');
+@import url('../blocks/portfolio/__btn-item/portfolio__btn-item.css');
+@import url('../blocks/portfolio/__btn/portfolio__btn.css');
+@import url('../blocks/portfolio/__btn/_active/portfolio__btn_active.css');
+@import url('../blocks/portfolio/__gallery/portfolio__gallery.css');
+@import url('../blocks/portfolio/__gallery-item/portfolio__gallery-item.css');
+@import url('../blocks/portfolio/__photo/portfolio__photo.css');
+
 
 
 

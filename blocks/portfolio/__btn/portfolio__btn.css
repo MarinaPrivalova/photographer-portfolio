@@ -1,0 +1,17 @@
+.portfolio__btn {
+  background-color: transparent;
+  border: 2px solid #bdae82;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2;
+  text-align: center;
+  color: #bdae82;
+  padding: 8px 0 8px;
+  width: 220px;
+}
+
+.portfolio__btn:hover {
+  color: #FFFFFF;
+}

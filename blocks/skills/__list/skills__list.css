@@ -1,0 +1,22 @@
+.skills__list {
+  list-style: none;
+  width: 97%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 310px));
+  margin: 0 auto;
+  padding: 0;
+  gap: 40px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1419px) {
+  .skills__list {
+    gap: 36px 44px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .skills__list {
+    width: 90%;
+  }
+}

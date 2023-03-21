@@ -1,0 +1,38 @@
+.section-title {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 0.25;
+  color: #bdae82;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-title::before {
+  content: "";
+  background-color: #bdae82;
+  height: 2px;
+  max-width: 182px;
+  display: block;
+  flex-grow: 1;
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.section-title::after {
+  content: "";
+  background-color: #bdae82;
+  height: 2px;
+  max-width: 182px;
+  display: block;
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 525px) {
+  .section-title {
+    width: 90%;
+  }
+}
