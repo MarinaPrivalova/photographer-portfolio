@@ -9,12 +9,14 @@
 @import url('../blocks/header/__item/header__item.css');
 @import url('../blocks/header/__item/_lang/header__item_lang.css');
 @import url('../blocks/header/__lang-menu/header__lang-menu.css');
+@import url('../blocks/mobile-menu-btn/mobile-menu-btn.css');
 @import url('../blocks/content/content.css');
 @import url('../blocks/hero/hero.css');
 @import url('../blocks/hero/__content/hero__content.css');
 @import url('../blocks/hero/__title/hero__title.css');
 @import url('../blocks/hero/__description/hero__description.css');
 @import url('../blocks/hero/__btn/hero__btn.css');
+@import url('../blocks/btn/btn.css');
 @import url('../blocks/link-hover/link-hover.css');
 @import url('../blocks/skills/skills.css');
 @import url('../blocks/skills/__title/skills__title.css');
@@ -59,6 +61,19 @@
 @import url('../blocks/card/__description/card__description.css');
 @import url('../blocks/card/__description-item/card__description-item.css');
 @import url('../blocks/card/__btn/card__btn.css');
+@import url('../blocks/contacts/contacts.css');
+@import url('../blocks/contacts/__container/contacts__container.css');
+@import url('../blocks/contacts/__title/contacts__title.css');
+@import url('../blocks/form/form.css');
+@import url('../blocks/form/__input/form__input.css');
+@import url('../blocks/form/__btn/form__btn.css');
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__container/footer__container.css');
+@import url('../blocks/footer/__description/footer__description.css');
+@import url('../blocks/footer/__icons/footer__icons.css');
+@import url('../blocks/footer/__icon/footer__icon.css');
+@import url('../blocks/footer/__link/footer__link.css');
+@import url('../blocks/footer/__img/footer__img.css');
 
 
 

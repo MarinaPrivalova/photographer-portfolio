@@ -1,7 +1,8 @@
 .price__container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 450px);
+  grid-template-columns: repeat(auto-fill, minmax(290px, 450px));
   gap: 25px;
   justify-content: center;
   justify-items: center;
+  margin: auto;
 }

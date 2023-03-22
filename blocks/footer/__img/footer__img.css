@@ -1,0 +1,13 @@
+.footer__img {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: #FFFFFF;
+}
+
+.footer__img:hover {
+  fill: #CCBA8D;
+}

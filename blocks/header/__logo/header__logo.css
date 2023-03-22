@@ -1,9 +1,9 @@
 .header__logo {
-  background-image: url(../../../images/svg/logo.svg);
   width: 50px;
   height: 50px;
+  fill: #FFFFFF;
 }
 
 .header__logo:hover {
-background-image: url(../../../images/svg/logo_hover.svg);
+  fill: #BDAE82;
 }

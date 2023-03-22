@@ -1,5 +1,6 @@
 .header__item_lang {
   margin: 0 8px 0 0;
+  text-transform: uppercase;
 }
 
 .header__item_lang:last-of-type {

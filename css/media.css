@@ -35,6 +35,27 @@
     grid-template-columns: 420px;
     gap: 50px;
   }
+  .contacts {
+    justify-content: center;
+  }
+  .contacts__container {
+    text-align: center;
+  }
+  .form__btn {
+    align-self: center;
+  }
+  .footer__container {
+    flex-direction: column;
+    padding: 28px;
+  }
+  .footer__description {
+    margin-bottom: 16px;
+    line-height: 1.2;
+  }
+  .footer__link {
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
 }
 
 @media screen and (max-width: 525px) {
@@ -48,11 +69,10 @@
 
 @media screen and (max-width: 500px) {
   .portfolio__gallery {
-    grid-template-columns: 300px;
     gap: 15px;
   }
   .portfolio__photo {
-    max-width: 300px;
+    max-width: 290px;
   }
 }
 
@@ -64,6 +84,9 @@
     padding-left: 25px;
   }
   .price__container {
-    grid-template-columns: 300px;
+    grid-template-columns: 290px;
+  }
+  .contacts__container {
+    width: 300px;
   }
 }
