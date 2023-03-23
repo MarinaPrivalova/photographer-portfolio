@@ -9,6 +9,7 @@
   <link rel="icon" href="#" type="image/x-icon">
   <link rel="stylesheet" href="./css/index.css">
   <link rel="stylesheet" href="./css/media.css">
+  <script src="./scripts/video-player.js" defer></script>
   <script type="module" src="./scripts/index.js" defer></script>
   <title>Alexa Rise. Portfolio</title>
 </head>
@@ -27,12 +28,12 @@
           <li class="header__item"><a class="header__link link-hover" href="#price" data-i18n="price">Price</a></li>
           <li class="header__item"><a class="header__link link-hover" href="#contacts" data-i18n="contacts">Contacts</a></li>
         </ul>
+      </nav>
         <ul class="header__lang-menu">
           <li class="header__item header__item-lang header__item-lang_active link-hover" data-lang="en">en</li>
           <li class="header__item header__item-lang">/</li>
           <li class="header__item header__item-lang link-hover" data-lang="ru">ru</li>
         </ul>
-      </nav>
     </div>
     <div class="mobile-menu-btn">
       <span></span>
@@ -76,18 +77,18 @@
     <section class="portfolio" id="portfolio">
       <h2 class="portfolio__title section-title" data-i18n="portfolio">Portfolio</h2>
       <ul class="portfolio__btn-list">
-        <li class="portfolio__btn-item"><button class="portfolio__btn btn" type="button" data-i18n="winter">Winter</button></li>
-        <li class="portfolio__btn-item"><button class="portfolio__btn btn" type="button" data-i18n="spring">Spring</button></li>
-        <li class="portfolio__btn-item"><button class="portfolio__btn btn" type="button" data-i18n="summer">Summer</button></li>
-        <li class="portfolio__btn-item"><button class="portfolio__btn btn portfolio__btn_active" type="button" data-i18n="autumn">Autumn</button></li>
+        <li class="portfolio__btn-item"><button class="portfolio__btn btn" type="button" data-btn-season="winter" data-i18n="winter">Winter</button></li>
+        <li class="portfolio__btn-item"><button class="portfolio__btn btn" type="button" data-btn-season="spring" data-i18n="spring">Spring</button></li>
+        <li class="portfolio__btn-item"><button class="portfolio__btn btn" type="button" data-btn-season="summer" data-i18n="summer">Summer</button></li>
+        <li class="portfolio__btn-item"><button class="portfolio__btn btn" data-btn-season="autumn" type="button" data-i18n="autumn">Autumn</button></li>
       </ul>
       <ul class="portfolio__gallery">
-        <li class="portfolio__gallery-item"><img class="portfolio__photo" src="./images/portfolio-img_autumn_1.jpg" alt="kissing couple"></li>
-        <li class="portfolio__gallery-item"><img class="portfolio__photo" src="./images/portfolio-img_autumn_2.jpg" alt="girl photo of a leaf"></li>
-        <li class="portfolio__gallery-item"><img class="portfolio__photo" src="./images/portfolio-img_autumn_3.jpg" alt="laughing couple"></li>
-        <li class="portfolio__gallery-item"><img class="portfolio__photo" src="./images/portfolio-img_autumn_4.jpg" alt="tree and grass"></li>
-        <li class="portfolio__gallery-item"><img class="portfolio__photo" src="./images/portfolio-img_autumn_5.jpg" alt="child"></li>
-        <li class="portfolio__gallery-item"><img class="portfolio__photo" src="./images/portfolio-img_autumn_6.jpg" alt="horse in the forest"></li>
+        <li class="portfolio__gallery-item"><img class="portfolio__photo" src="./images/autumn/1.jpg" alt="example photo"></li>
+        <li class="portfolio__gallery-item"><img class="portfolio__photo" src="./images/autumn/2.jpg" alt="example photo"></li>
+        <li class="portfolio__gallery-item"><img class="portfolio__photo" src="./images/autumn/3.jpg" alt="example photo"></li>
+        <li class="portfolio__gallery-item"><img class="portfolio__photo" src="./images/autumn/4.jpg" alt="example photo"></li>
+        <li class="portfolio__gallery-item"><img class="portfolio__photo" src="./images/autumn/5.jpg" alt="example photo"></li>
+        <li class="portfolio__gallery-item"><img class="portfolio__photo" src="./images/autumn/6.jpg" alt="example photo"></li>
       </ul>
     </section>
     <section class="video" id="video">

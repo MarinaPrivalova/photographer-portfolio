@@ -1,0 +1,20 @@
+.pulse {
+  display: block;
+  background-color: #FFFFFF;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  animation: pulse 0.7s ease-out;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+@keyframes pulse {
+  to {
+    transform: translate(-50%, -50%) scale(2);
+    opacity: 0;
+    background-color: transparent;
+  }
+}

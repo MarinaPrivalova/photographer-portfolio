@@ -5,6 +5,9 @@
 }
 
 @media screen and (max-width: 769px) {
+  .header__logo {
+    margin-left: 45px;
+  }
   .header__menu {
     position: fixed;
     top: 0;
@@ -17,9 +20,6 @@
   .header__menu_active {
     right: 0;
     z-index: 10;
-  }
-  .header__lang-menu {
-    display: none;
   }
   .header__list {
     flex-direction: column;
@@ -38,6 +38,11 @@
     font-size: 35px;
     line-height: 2;
   }
+  .header__lang-menu {
+    margin-left: auto;
+    margin-right: 120px;
+  }
+
   .mobile-menu-btn {
     display: flex;
     flex-direction: column;
@@ -63,9 +68,19 @@
   }
   .mobile-menu-btn_active span {
     margin-bottom: -2px;
-    width: 62px;
+    width: 55px;
     height: 2px;
   }
+  .mobile-menu-btn_active span:nth-child(1) {
+    transform: translateY(5px) rotate(-45deg);
+  }
+  .mobile-menu-btn_active span:nth-child(2) {
+    display: none;
+  }
+  .mobile-menu-btn_active span:nth-child(3) {
+    transform: translateY(-15px) rotate(45deg);
+  }
+
   .hero__title {
     font-weight: 400;
     font-size: 32px;
@@ -82,6 +97,7 @@
     padding-left: 60px;
     padding-bottom: 152px;
   }
+
   .skills__description {
     line-height: 1.2;
   }
@@ -91,19 +107,43 @@
   .skills__title {
     margin-bottom: 51px;
   }
+
+  .video__start-btn {
+    width: 100px;
+    height: 100px;
+  }
+
+  .controls__play-btn {
+    width: 20px;
+    height: 30px;
+  }
+  .controls__progress-bar {
+    height: 7px;
+  }
+  .controls__volume-btn {
+    width: 30px;
+    height: 30px;
+  }
+  .controls__volume-bar {
+    height: 7px;
+  }
+
   .price__container {
     grid-template-columns: 420px;
     gap: 50px;
   }
+
   .contacts {
     justify-content: center;
   }
   .contacts__container {
     text-align: center;
   }
+
   .form__btn {
     align-self: center;
   }
+
   .footer__container {
     flex-direction: column;
     padding: 28px;
@@ -122,6 +162,7 @@
   .section-title {
     width: 90%;
   }
+
   .skills__list {
     width: 90%;
   }
@@ -134,18 +175,53 @@
   .portfolio__photo {
     max-width: 290px;
   }
+
+  .video__start-btn {
+    width: 70px;
+    height: 70px;
+  }
+
+  .controls {
+    padding: 0 20px;
+    height: 40px;
+  }
 }
 
 @media screen and (max-width: 470px) {
+  .header__menu {
+    width: 100%;
+  }
+  .header__list {
+    padding-top: 100px;
+    padding-left: 85px;
+    height: 50%;
+  }
+  .header__link {
+    font-size: 25px;
+    line-height: 2.2;
+  }
+  .header__logo {
+    display: none;
+  }
+  .header__lang-menu {
+    margin: 0;
+  }
+
+  .mobile-menu-btn {
+    right: 20px;
+  }
+
   .hero__description {
     max-width: 300px;
   }
   .hero__content {
     padding-left: 25px;
   }
+
   .price__container {
     grid-template-columns: 290px;
   }
+
   .contacts__container {
     width: 300px;
   }

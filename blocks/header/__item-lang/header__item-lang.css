@@ -1,6 +1,8 @@
 .header__item-lang {
   margin: 0 8px 0 0;
   text-transform: uppercase;
+  font-weight: 700;
+  line-height: 2.5;
 }
 
 .header__item-lang:last-of-type {
