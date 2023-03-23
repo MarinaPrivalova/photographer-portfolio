@@ -1,8 +1,8 @@
-.header__item_lang {
+.header__item-lang {
   margin: 0 8px 0 0;
   text-transform: uppercase;
 }
 
-.header__item_lang:last-of-type {
+.header__item-lang:last-of-type {
   margin: 0;
 }

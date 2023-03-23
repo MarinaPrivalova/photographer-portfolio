@@ -1,4 +1,3 @@
-
 @media screen and (max-width: 1419px) {
   .skills__list {
     gap: 36px 44px;
@@ -6,6 +5,67 @@
 }
 
 @media screen and (max-width: 769px) {
+  .header__menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    height: 100vh;
+    background-color: #000000;
+    transition: 0.8s all;
+  }
+  .header__menu_active {
+    right: 0;
+    z-index: 10;
+  }
+  .header__lang-menu {
+    display: none;
+  }
+  .header__list {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 135px;
+    padding-left: 135px;
+    height: 60%;
+  }
+  .header__item {
+    margin: 0;
+    width: 100%;
+  }
+  .header__link {
+    display: block;
+    font-size: 35px;
+    line-height: 2;
+  }
+  .mobile-menu-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 25px;
+    right: 65px;
+    width: 50px;
+    height: 41px;
+    cursor: pointer;
+  }
+  .mobile-menu-btn span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #ffffff;
+    transition: 0.8s all;
+  }
+  .mobile-menu-btn_active {
+    top: 30px;
+    right: 70px;
+    z-index: 20;
+  }
+  .mobile-menu-btn_active span {
+    margin-bottom: -2px;
+    width: 62px;
+    height: 2px;
+  }
   .hero__title {
     font-weight: 400;
     font-size: 32px;
