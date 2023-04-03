@@ -1,6 +1,5 @@
 .hero {
-  background-image: url(../../images/bg.jpg);
+  background: url(../../images/bg.jpg) center;
   margin-top: -90px;
-  background-position: center;
   background-size: cover;
 }

@@ -47,13 +47,11 @@
 @import url('../blocks/video/__start-btn/_hide/video__start-btn_hide.css');
 @import url('../blocks/video/__controls/video__controls.css');
 @import url('../blocks/controls/controls.css');
-@import url('../blocks/controls/_active/controls_active.css');
 @import url('../blocks/controls/__btn/controls__btn.css');
 @import url('../blocks/controls/__play-btn/controls__play-btn.css');
 @import url('../blocks/controls/__progress/controls__progress.css');
 @import url('../blocks/controls/__progress-bar/controls__progress-bar.css');
 @import url('../blocks/controls/__volume-btn/controls__volume-btn.css');
-@import url('../blocks/controls/__volume-btn/_mute/controls__volume-btn_mute.css');
 @import url('../blocks/controls/__volume-bar/controls__volume-bar.css');
 @import url('../blocks/price/price.css');
 @import url('../blocks/price/__title/price__title.css');

@@ -1,6 +1,5 @@
 .video__start-btn {
-  background-image: url(../../../images/svg/play_btn.svg);
-  background-position: center;
+  background-image: url(../../../images/svg/play_btn.svg) center;
   background-size: cover;
   border: none;
   width: 130px;
