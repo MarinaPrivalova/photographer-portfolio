@@ -39,10 +39,12 @@
 @import url('../blocks/video/video.css');
 @import url('../blocks/video/__title/video__title.css');
 @import url('../blocks/video/__container/video__container.css');
+@import url('../blocks/video/__poster/_hide/video__poster_hide.css');
 @import url('../blocks/video/__poster/video__poster.css');
 @import url('../blocks/video/__player/video__player.css');
 @import url('../blocks/video/__clip/video__clip.css');
 @import url('../blocks/video/__start-btn/video__start-btn.css');
+@import url('../blocks/video/__start-btn/_hide/video__start-btn_hide.css');
 @import url('../blocks/video/__controls/video__controls.css');
 @import url('../blocks/controls/controls.css');
 @import url('../blocks/controls/_active/controls_active.css');
