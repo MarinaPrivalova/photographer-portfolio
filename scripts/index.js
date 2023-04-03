@@ -10,6 +10,7 @@ window.addEventListener('DOMContentLoaded', () => {
   let lang = 'en';
   const btns = document.querySelectorAll('.btn');
   const hireBtn = document.querySelector('.hero__btn');
+  const orderBtn = document.querySelectorAll('.card__btn');
 
   /**меню мобильной версии*/
   function menuShow() {
@@ -84,9 +85,15 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   })
 
+  orderBtn.forEach(item => {
+    item.addEventListener('click', () => {
+      location.href = '#contacts';
+    });
+  })
+
   menuShow();
   changeImages();
-  
+
   window.addEventListener('beforeunload', setLocalStorage);
   window.addEventListener('load', getLocalStorage);
 
@@ -94,4 +101,3 @@ window.addEventListener('DOMContentLoaded', () => {
     location.href = '#contacts';
   })
 });
-
