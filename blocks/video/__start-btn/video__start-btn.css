@@ -14,6 +14,7 @@
 }
 
 .video__start-btn:hover {
-  background: url(../../../images/svg/play_hover.svg);
+  background: url(../../../images/svg/play_hover.svg) center;
+  background-size: cover;
   cursor: pointer;
 }
