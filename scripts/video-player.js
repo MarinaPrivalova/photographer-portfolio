@@ -13,14 +13,14 @@ let value;
 function playVideo() {
   playBtn.classList.add('video__start-btn_hide');
   videoPoster.classList.add('video__poster_hide');
-  playControl.style.backgroundImage = 'url("../images/svg/pause.svg")';
+  playControl.style.backgroundImage = 'url("../../images/svg/pause.svg")';
   isPlay = true;
 
   video.play();
 }
 function pauseVideo() {
   playBtn.classList.remove('video__start-btn_hide');
-  playControl.style.backgroundImage = 'url("../images/svg/play.svg")';
+  playControl.style.backgroundImage = 'url("../../images/svg/play.svg")';
   isPlay = false;
 
   video.pause();
@@ -45,11 +45,11 @@ function rewindVideo(time) {
 
 function muteVideo() {
   video.volume = 0;
-  volumeBtn.style.backgroundImage = 'url("../images/svg/mute.svg")';
+  volumeBtn.style.backgroundImage = 'url("../../images/svg/mute.svg")';
 }
 function unMuteVideo() {
   video.volume = prevVolume;
-  volumeBtn.style.backgroundImage = 'url("../images/svg/volume.svg")';
+  volumeBtn.style.backgroundImage = 'url("../../images/svg/volume.svg")';
 }
 function volumeVideo() {
   value = progressVolume.value;
@@ -58,9 +58,9 @@ function volumeVideo() {
 
   if(value == 0) {
     prevVolume = 0.1;
-    volumeBtn.style.backgroundImage = 'url("../images/svg/mute.svg")';
+    volumeBtn.style.backgroundImage = 'url("../../images/svg/mute.svg")';
   } else {
-    volumeBtn.style.backgroundImage = 'url("../images/svg/volume.svg")';
+    volumeBtn.style.backgroundImage = 'url("../../images/svg/volume.svg")';
   }
 }
 
