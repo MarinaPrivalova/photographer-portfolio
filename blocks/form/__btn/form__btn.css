@@ -1,4 +1,10 @@
 .form__btn {
-  padding: 8px 40px;
-  max-width: 220px;
+  padding: 8px 0;
+  width: 220px;
+  max-height: 56px;
+  box-sizing: content-box;
+}
+
+.form__btn:disabled {
+  color: #ffffff;
 }

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Marina Privalova">
   <meta name="description" content="Портфолио фотографа">
-  <link rel="icon" href="#" type="image/x-icon">
+  <link rel="icon" href="./images/svg/camera.svg" type="image/x-icon">
   <link rel="stylesheet" href="./css/index.css">
   <link rel="stylesheet" href="./css/media.css">
   <script src="./scripts/video-player.js" defer></script>
@@ -150,10 +150,19 @@
     <section class="contacts" id="contacts">
       <div class="contacts__container">
         <h3 class="contacts__title" data-i18n="contact-me">Contact me</h3>
-        <form class="form">
-          <input class="form__input" type="email" name="email" placeholder="E-mail">
-          <input class="form__input" type="phone" name="phone" placeholder="Phone">
-          <input class="form__input" type="text" name="text" placeholder="Message">
+        <form class="form" novalidate>
+          <lable class="form__field">
+            <input class="form__input form__input_type_email" type="email" name="email" id="email" placeholder="E-mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+            <span class="form__input-error email-error"></span>
+          </lable>
+          <lable class="form__field">
+            <input class="form__input form__input_type_phone" type="tel" name="phone" id="phone" placeholder="Phone" required pattern="[0-9]{11}">
+            <span class="form__input-error phone-error"></span>
+          </lable>
+          <lable class="form__field">
+            <textarea class="form__input form__input_type_text" type="text" name="text" id="text" placeholder="Message" minlength="2" maxlength="300" required></textarea>
+            <span class="form__input-error text-error"></span>
+          </lable>
           <button class="form__btn btn" name="form-btn" type="submit" data-i18n="send-msg">Send message</button>
         </form>
       </div>

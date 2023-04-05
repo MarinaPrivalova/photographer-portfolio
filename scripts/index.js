@@ -1,4 +1,6 @@
 import i18nObj from './translate.js';
+import valParams from './valParams.js';
+import FormValidator from './FormValidator.js';
 
 window.addEventListener('DOMContentLoaded', () => {
   const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
@@ -11,6 +13,14 @@ window.addEventListener('DOMContentLoaded', () => {
   const btns = document.querySelectorAll('.btn');
   const hireBtn = document.querySelector('.hero__btn');
   const orderBtn = document.querySelectorAll('.card__btn');
+  const formElementContact = document.querySelector('.form');
+  const formBtn = formElementContact.querySelector('.form__btn');
+  const emailInput = formElementContact.querySelector('.form__input_type_email');
+  const phoneInput = formElementContact.querySelector('.form__input_type_phone');
+  const textInput = formElementContact.querySelector('.form__input_type_text');
+
+  const formValidator = new FormValidator (valParams, formElementContact);
+  formValidator.enableValidation();
 
   /**меню мобильной версии*/
   function menuShow() {
@@ -69,6 +79,14 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  /**отправить данные формы*/
+  function handleSendForm(evt) {
+    evt.preventDefault();
+    emailInput.value = '';
+    phoneInput.value = '';
+    textInput.value = '';
+  }
+
   /**анимация кнопок*/
   function animationBtn(parent){
     let pulse = document.createElement('span');
@@ -100,4 +118,6 @@ window.addEventListener('DOMContentLoaded', () => {
   hireBtn.addEventListener('click', () => {
     location.href = '#contacts';
   })
+
+  formBtn.addEventListener('click', handleSendForm);
 });
